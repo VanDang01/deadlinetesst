@@ -218,10 +218,11 @@ img {
 
 .introduce {
   margin-top: 10rem;
-  margin-left: 60px;
+  margin-left: 3rem;
 }
+
 .introduce2 {
-  margin-left: 60px;
+  margin-left: 3rem;
 }
 
 .introduce_item-one {
@@ -275,6 +276,43 @@ img {
   flex-direction: column;
   align-items: center;
   width: 40px;
+}
+
+.center2 {
+  position: absolute;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 32rem;
+  color: #fff;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding-top: 20px;
+}
+
+.center2_item2 {
+  margin-left: 28px;
+}
+
+.center2_item a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  margin: 16px 11px 0 0;
+  text-decoration: underline;
+}
+
+.center2_item2 a {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.center2_item2 p {
+  font-size: 1rem;
+  color: #fff;
+  margin: 0 10px;
 }
 
 .center p {
@@ -502,7 +540,6 @@ input:hover {
   }
   .connect {
     width: 768px;
-    margin-left: 6rem;
   }
   .input input {
     width: 350px;
@@ -520,7 +557,7 @@ input:hover {
     right: -183px;
   }
   .introduce, .introduce2 {
-    margin-left: 10rem;
+    margin-left: 8rem;
   }
   .section2 {
     margin-left: 2.5rem;
