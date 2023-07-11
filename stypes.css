@@ -218,6 +218,10 @@ img {
 
 .introduce {
   margin-top: 10rem;
+  margin-left: 60px;
+}
+.introduce2 {
+  margin-left: 60px;
 }
 
 .introduce_item-one {
@@ -498,6 +502,7 @@ input:hover {
   }
   .connect {
     width: 768px;
+    margin-left: 6rem;
   }
   .input input {
     width: 350px;
