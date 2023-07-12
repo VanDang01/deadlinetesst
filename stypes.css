@@ -267,6 +267,15 @@ img {
   margin-bottom: 20px;
 }
 
+.violet h1 {
+  width: 300px;
+  margin-left: 6rem;
+}
+
+.center h1 {
+  font-weight: 500;
+}
+
 .center {
   position: absolute;
   top: 50%;
@@ -319,6 +328,7 @@ img {
   width: 100px;
   font-size: 1rem;
   margin-top: -20px;
+  text-decoration: underline;
 }
 
 .introduce2_item-one {
@@ -551,7 +561,7 @@ input:hover {
     width: 100%;
   }
   .join {
-    width: 1503px;
+    width: 1515px;
   }
   .groud-3 {
     right: -183px;
