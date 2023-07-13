@@ -220,6 +220,35 @@ img {
     flex-direction: column;
     align-items: center;
     margin-right: 50px;
+
+    .center2_item {
+        position: absolute;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: center;
+        
+
+        a {
+            color: black;
+            margin-right: 17rem;
+        }
+     
+    }
+
+    .center3_item {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+
+        a {
+            font-weight: 500;
+            font-size: 1rem;
+            color: black;
+            margin-right: 49rem;
+            text-decoration: underline;
+        }
+     
+    }
 }
 
 .flex {
@@ -389,8 +418,12 @@ img {
     position: relative;
     background-color: #6c6a6f;
 
+    h1 {
+        color: #fff;
+    }
+
     a {
-        color: black;
+        color: #fff;
         font-size: 1rem;
         width: 103px;
         text-decoration: underline;
@@ -644,13 +677,166 @@ i,a,li:hover {
        margin-left: 8rem;
     }
     .section2 {
-        margin-left: 2.5rem;
+        margin-left: 0.5rem;
     }
     .connect_item {
-        margin-left: 22rem;
+        margin-left: 6rem;
     }
     .footer_icon {
         margin-right: 50px;
     }
 
+  }
+
+// mobile: with < 740px
+  @media only screen and (max-width: 46.1875em) {
+    .input input {
+        width: 390px;
+    }
+    .input i {
+        padding-left: 30px;
+    }
+    .section {
+      flex-direction: column;  
+      width: 100%; 
+      text-align: center;
+      margin-left: 53px;
+    }
+    .feature_section {
+        width: 100%;
+        margin-left: 15rem;
+    }
+    .feature_section button {
+        width: 100%;
+        background-color: #f8a14b;
+        margin-bottom: 5rem;
+    }
+    .section img {
+        margin-left: 12rem;
+        margin-bottom: 10rem;
+    }
+
+    .feature2 {
+        padding-top: 50rem;
+    }
+
+    .section2 {
+        padding-top: 50rem;
+        margin-left: -10px;
+        flex-direction: column-reverse;
+    }
+
+    .feature_section2 {
+        width: 800px;
+    }
+    .feature_section2 .feature_section-item {
+        width: 800px;
+        margin-left: 14rem;
+        text-align: center;
+    }
+    .feature_section2 button {
+        width: 100%;
+        background-color: #f8a14b;
+        // margin-bottom: 5rem;
+        margin: 20px 0 50px 15rem;
+    }
+
+    .section2 {
+        width: 100%;
+    }
+    .section2 img {
+        width: 1000px;
+        height: 800px;
+        margin:0  0 10rem 12rem ;
+    }
+
+    .connect_item h1 {
+        padding-top: 10rem;
+    }
+
+    .connect {
+        width: 1200px;
+    }
+
+    .connect_image {
+        width: 100%;
+        margin-left: 5rem;
+        flex-direction: column;
+        align-items: center;
+        .one {
+            width: 100%;
+            margin-left: -5rem;
+            button {
+                margin-bottom: 4rem;
+            }
+        }
+        .tow {
+            margin-left: -2rem;
+        }
+        &-item img{
+            width: 600px;
+            height: 800px;
+    }
+    .connect_image-it img{
+        width: 600px;
+        height: 800px;
+    }
+
+    .center2_item a {
+        margin-left: -15rem;
+    }
+    .center3_item {
+        margin-left: -15rem;
+    }
+  }
+
+  .introduce, .introduce2 {
+    margin-left: 7.3rem;
+  }
+
+  .join {
+    width: 1410px;
+    flex-direction: column;
+    align-items:center;
+    &_item {
+        width: 42%;
+        align-items: center;
+        margin-left: 8rem;
+        h1 {
+            margin-left:-4rem;
+        }
+    }
+    &_input {
+        margin-left: 3rem;
+    }
+  }
+
+  .footer {
+    margin-top: 25rem;
+  }
+  .address {
+    width: 67%;
+  }
+  .groud-3 {
+    right: -190px;
+  }
+
+}
+
+  // tablet: with >= 740px and with < 1024px
+  @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+    
+    .section2 img {
+        margin-left: 10rem;
+    }
+    .feature_section {
+        width: 100%;
+    }
+    .connect_image-it {
+        display: none;
+    }
+    .connect_image {
+        margin-left: 8rem;
+    }  
   }
